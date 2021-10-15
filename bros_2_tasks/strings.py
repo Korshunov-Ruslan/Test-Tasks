@@ -7,9 +7,7 @@ def main():
     old = ''
     for i in range(len(row)):
         if row[i] != old:
-            print(row[i])
             result += old
-            print(result)
             old = row[i]
             if count != 0:
                 result += str(count)
